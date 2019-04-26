@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav .pattern h2 {
+  width: 50%;
+  background-color: #ffc107;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: white;
+  font-style: italic;
+}
+
+header nav .list-menu li {
+  display: inline-block;
+  font-weight: 600;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav .list-menu li:hover {
+  background-color: #ffc107;
+}
+
+header nav .list-menu li a {
+  color: #381d1d;
+}
+
+header nav .list-menu li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  header .pattern {
+    background-color: #ffc107;
+  }
+  header .pattern h2 {
+    padding: 0;
+    text-align: center;
+  }
+  header .list-menu {
+    display: none;
+  }
+}
+
+#promo {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#promo .img {
+  background-image: url("../pics/fon.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+}
+
+#about {
+  min-height: 500px;
+  margin-top: 50px;
+}
+
+#about .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#about .about .text {
+  margin-top: 20px;
+}
+
+#about .about .text p {
+  margin-left: 20px;
+  font-style: italic;
+  color: #381d1d;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+#about .about .awards {
+  padding: 15px;
+}
+
+#about .about .awards img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#tortlar {
+  padding-bottom: 50px;
+}
+
+#tortlar .cakes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tortlar .cakes .cake {
+  margin-top: 40px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+#tortlar .cakes .cake img {
+  width: 100%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#tortlar .cakes .cake img:hover {
+  border: 7px solid #ffc107;
+}
+
+#elaqe {
+  min-height: 300px;
+  padding-bottom: 30px;
+}
+
+#elaqe p {
+  font-style: italic;
+  color: #381d1d;
+  font-weight: 450;
+  text-align: center;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=shellycake.css.map */
